@@ -10,5 +10,5 @@ function getName() {
   }
 }
 
-document.body.style.backgroundColor = "black";
-document.body.style.color = "white";
+document.getElementsByTagName("p")[0].style.backgroundColor = "black";
+document.getElementsByTagName("p")[0].style.color = "white";
